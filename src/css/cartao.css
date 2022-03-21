@@ -1,0 +1,115 @@
+.cartao-pokemon {
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+/* Informações do Topo */
+
+.cartao-pokemon .cartao-topo {
+    padding: 30px 40px 0;
+
+}
+
+.cartao-pokemon .nome {
+    margin-bottom: 5px;
+}
+
+.cartao-pokemon .tipo {
+    font-size: 12px;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.1);
+}
+
+.cartao-pokemon .detalhes {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Informações das Imagens */
+
+.cartao-pokemon .cartao-imagem {
+    width: 350px;
+    height: 350px;
+}
+
+.cartao-pokemon img {
+    max-height: 100%;
+}
+
+/* Informações das Habilidades & Status */
+
+.cartao-pokemon .cartao-informacoes {
+    padding: 80px 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-pokemon .cartao-informacoes h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6B727A;
+
+}
+
+.cartao-pokemon .cartao-informacoes .status,
+.cartao-pokemon .cartao-informacoes .habilidades {
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-pokemon .cartao-informacoes .habilidades ul li,
+.cartao-pokemon .cartao-informacoes .status ul li {
+    border-bottom: 1px solid #C3C4C5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-pokemon.aberto {
+    display: block;
+}
+
+.tipo-fogo {
+    background-color: #FF6347;
+    /* background-color: #ED8A8B; */
+}
+
+.tipo-agua {
+    background-color: #76BEFE;
+}
+
+.tipo-eletrico {
+    background-color: #FFD700;
+}
+
+.tipo-fantasma {
+    /* background-color: #6E2E7E; */
+    background-color: #8A2BE2;
+}
+
+.tipo-grama {
+    background-color: #7AC74C;
+    /* background-color: #49D0B0; */
+}
+
+.tipo-veneno {
+    background-color: #BA68C8;
+}
+
+.tipo-dragao {
+    background-image: linear-gradient(to left, #53A4CF, #F16E57);
+}
+
+.tipo-voador {
+    background-color: #FDB9E9;
+}
